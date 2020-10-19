@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-user
+  labels:
+    app: pod-user
+spec:
+  containers:
+    - name: container-user
+      image: eduardomelle/user:v1
+      ports:
+        - containerPort: 8081
