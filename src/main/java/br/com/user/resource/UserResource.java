@@ -8,7 +8,7 @@ public class UserResource {
 
 	@GetMapping("/api/user/name")
 	public String getName() {
-		return "Eduardo Orlandi Melle";
+		return "Eduardo O. Melle";
 	}
 
 }
